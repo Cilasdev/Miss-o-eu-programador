@@ -1,0 +1,36 @@
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+input {
+    border: 3px solid red;
+    color:rgba(158, 5, 5, 0.581)
+
+
+}
+input::placeholder   {
+    color: rgb(255, 221, 0);
+
+}
+
+p   {
+    background-color: blue
+
+}
+
+/* serve para selecionar e estilizar a 1º letra
+p::first-letter {
+
+    color: aqua;
+}
+*/
+
+p::first-line   {
+
+    color: rgb(87, 241, 21);
+}
+/*Serve para selecionar a 1º linha*/

@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+
+}
+
+.wrapper {
+    height: 100vh;
+    /*Serve para colocar os tamanhos para a página inteira*/
+    width: 100vw;
+
+
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    /*o A, serve para ajustar o opacity*/
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    /*fixamos a parte cinza na lateral da página*/
+    font-size: 30px;
+    word-spacing: 150px;
+    /*Espaço entre as palavras*/
+
+
+
+
+}
+
+.container-left {
+    display: inline-block;
+    /*podemos alterar as alturas e larguras*/
+    width: 60%;
+    margin-top: 280px;
+
+}
+
+img {
+    position: relative;
+    width: 550px;
+    height: 661px;
+    top: 80px;
+    right: 8%;
+
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 90px;
+    color: #5D5D7D;
+    width: 368px;
+    height: 160px;
+    margin-left: 100px;
+    margin-top: 110px;
+
+}
+
+p {
+    position: absolute;
+    width: 540px;
+    height: 144px;
+    color: #5D5D7D;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.button {
+    /*
+    border: 1px solid #f2f3f2;
+    border-radius: 10px;
+    /*arredondamento do quadrado*/
+    /*font-weight: 500;
+    width: 200px;
+    /*Largura do quadrado*/
+    /*font-size: 22px;
+    /*fonte*/
+    /*line-height: 60px;
+    /*altura do quadrado*/
+    /*letter-spacing: 2px;
+    /*espaço entre as letras do quadrado*/
+    /*color: #FFFFFF;
+    cursor: pointer;*/
+    position: relative;
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 290px;
+    margin-left: 100px;
+
+
+}
+
+button:hover {
+    opacity: .8;
+    color: rgb(244, 240, 8);
+}
+
+button:active {
+    opacity: .5;
+
+}
+
+
+header {
+    margin: 20px 0 0 57px;
+
+
+}
+
+a:hover {
+    opacity: 0.4;
+
+}
+
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:active {
+
+    opacity: 0.8;
+}
+
+.home {
+    font-size: 28px;
+    /*line-height: 101px;*/
+    color: #5D5D7D;
+    cursor: pointer;
+
+}
+
+.work {
+    font-size: 28px;
+    cursor: pointer;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+
+}
+
+.about {
+    font-size: 28px;
+    cursor: pointer;
+    color: #5D5D7D;
+
+}
+
+.contact {
+
+    font-size: 28px;
+    cursor: pointer;
+    color: #5D5D7D;
+}

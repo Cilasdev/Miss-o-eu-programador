@@ -1,0 +1,85 @@
+/*PSEUDO CLASSES
+
+EM TODOS ESTEAS CASOS, POSSO USAR COMO .class/:hover e etc./div:
+:active, quando o elemento está tivo, ou seja , está sendo pressionado
+*muda de cor quando é clicado.
+ex. no nome link:
+
+a:active{
+    color:red
+}
+:visited, seleciona o link que foi visiado
+*muda de cor quando já foi clicado.
+:hover,quando o mouse passa em cima do elemento
+*quando passa o mouse em cima ele muda de cor.
+seleciona a classe e coloca :hover{ color: blue}  
+:checked, usado em rádio(redondinhos) , checkbox(fleg) e select
+*vai fazer o efeito de quando selecionado ele alterar par ao que você quer
+:disabled, elemento desabilitado/button/ input
+
+:enabled, elemento está habilitado
+
+:focus, é aplicado quando um elementorecebe foco, o que pode ocorrer quando o usuário seleciona o elemento
+:focus{
+    border: 1px solid red;
+    outline: none;
+}
+:read-only, seleciona input ou textarea que são apenas leitura
+somente leitura, não consegue apagar
+:empty, elemento que não tem filho
+*aplicada quando o elemento estiver vazio.
+:first-child, primeiro filho/ex: primeira li de uma ul, preimeiro span de uma div
+:first-of-type, primento elemento de seu tipo entre os filhos de seu elemento pai
+:last-child, ultimo filho
+:last-of-type,ultimo elemento de seu tipo entre os filhos de seu elemento pai
+:not(), estiliza os elementos, excelto o que está dentro do()
+.conteiner:not(.excluido){
+        color:red;
+}
+:nth-child(), seleciona o elemento baseado na sua posição.Ex: :nth-child(3)
+:nth-last-child(), seleciona o elemento baseado nas sua posição, contanto de trás para frente.
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+li:first-child  {
+color:red   
+
+}
+
+span:first-of-type    {
+    color:red   
+}
+p:first-of-type {
+    color:blue
+}
+
+input:focus {
+
+    border: 1px solid red;
+    outline: none;
+}
+
+.container :not(.excluido)  {
+    color: red;
+
+}
+
+li:nth-child(2) {
+
+    color: red;
+}
+*/
+
+li:nth-last-child(2)    {
+
+color: red;
+
+}
+
+

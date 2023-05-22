@@ -1,0 +1,27 @@
+
+/*
+*utilizando marging e padding, podemos ajustar a div para onde 
+quisermos.
+*Lembrar sempre do esquema do relógio:
+padding ou margin::
+padding: 20px 30px 10px 5px; 
+***atenção: podemos eliminar alguns destas sequncias do relógio, 
+pois ele repatirá o valor seguinte que eu eliminar.
+ex: se eu apagar o 3º ele repetirá a informação para o 2º
+
+
+
+*/
+
+
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: #de2587;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}

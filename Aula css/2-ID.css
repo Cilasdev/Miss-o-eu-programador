@@ -1,0 +1,25 @@
+/*Se colocarmos  após o h1 ou o p ou button o id= no html, teremos que colocar o #titulo no css e etc, estes são os CPF ou RG´s de cada ponto que você quer ajustar da página, ex: se quisermos 
+ajustar a fonte ou cor e etc.., ele vai deixar todas as fontes, cores e etc. da mesma forma do ewxemplo abaixo*/
+
+
+#titulo {
+    color: red;
+    font-size: 20px;
+
+}
+#loren  {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#botao1  {
+    background-color: green;
+    
+}
+
+#botao2 {
+    background-color: chocolate;
+    
+}

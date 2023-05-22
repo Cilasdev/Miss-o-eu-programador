@@ -1,0 +1,29 @@
+
+/*É obrigatório o uso dos colchetes, para o CSS
+*/
+
+/*Se colocarmos o *, ele vai ajustar toda a página, ex: se quisermos 
+ajustar a fonte ou cor , ele vai deixar todas as fontes e cores no mesmo padrão*/
+
+
+*   {
+font-size: 20px;
+background-color: aquamarine;
+
+
+}
+
+.titulo {
+    color: royalblue;
+    background-color: black;
+}
+p {
+    color: blue;
+}
+button  {color: rgb(16, 18, 15);
+    background-color: rgb(34, 171, 25);
+    border-color: rgb(49, 158, 10);
+    
+    
+}
+
