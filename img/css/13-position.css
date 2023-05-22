@@ -1,0 +1,62 @@
+/*
+vamos falar de position:
+
+position- static( padrão), não aceita valores de top, botton, right e left
+*Você determina o local da tela e ele fica lá independente do que acontecer na tela.
+position fixed, fixa o elemento na tela
+*Você determina um local da tela entre top, botton, right e left.
+position sticky, age como um adesivo, fixa o elemento só onde eu determinar
+*Começa fixo num lugar , mas dependendo da movimentação da tela ele cola e fica igual ao um adsivo na página.
+podemos usar neste caso o menu de navegação.
+position relative, posição relativa a posição inicial dele.
+position absoltue, posição absoluta (fixa) a algum elemento ou a página.
+                    -Se não tiver pai/pai for static -->posiciona referente a página,
+                    -Se o pai náo for static, posiciona referente ao pai.
+
+Propriedades:
+    -top
+    -botton                        
+    -left
+    -right
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vw;
+    height: 200vh;
+}
+
+.div-dad    {
+    height: 350px;
+    width: 350px;
+    background-color: #ffc0f3;
+    position: fixed;
+    opacity: 0,5;
+    /* top: 50px; neste ponto se você quer colocar o bottom dá conflito com o top.  */
+    /* left: 36px; neste ponto se você for usar o right dá conflito com o left.*/
+    /*position: sticky, se usarmos e colocarmos margin:20px, ele irá se moviemntar e não sairá da área, ex: podemos usar estes dados para área de menu.
+        podemos colocar essa mesma opção para os lados desta fortma o menu não sairia da área de visão do usuário
+    
+    */
+    right: 30px;
+    bottom: 0;
+}
+.div-son    {
+
+
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00;
+}
+
+.tananam    {
+
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}

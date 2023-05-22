@@ -1,0 +1,51 @@
+/*
+vamos falar de position:
+position relative, posição relativa a posição inicial dele.
+*No relative, quando eu ajusto a div ela ajusta com o ex:pai
+
+position absoltue, posição absoluta (fixa) a algum elemento ou a página.
+                    -Se não tiver pai/pai for static -->posiciona referente a página,
+                    -Se o pai náo for static, posiciona referente ao pai.
+
+Propriedades:
+    -top
+    -botton                        
+    -left
+    -right
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vw;
+    height: 200vh;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    background-color: #ffc0f3;
+    top: 50px;
+}
+
+.div-son {
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.tananam {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 80px;
+}

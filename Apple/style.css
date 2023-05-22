@@ -1,0 +1,191 @@
+* {
+
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    
+        height: 25px;
+        margin-top: 0px;
+        margin-left: 100px;
+
+    
+}
+
+.caixa-roxa {
+
+    display: flex;
+    padding: 20px;
+    height: 50px;
+    align-items: center;/*alinha ao centro na vertical*/
+    justify-content: center;/*alinha ao centro da página*/
+    cursor: pointer;    /*mãozinnha*/
+    border-bottom: 2px solid #d3d3d3;
+    
+
+}
+
+
+ul  {
+    display: flex;
+    gap: 100px; /* espaço entre os itens*/
+    list-style: none;   /*estilo da lista*/
+    color: #6b6b6b;
+    
+}
+li  {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #373737;
+}
+
+.caixa-azul {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+
+.iphone-14 {
+    font-size: 25px;
+    margin-top: 20px;
+
+
+
+}
+
+.caixa-verde {
+
+    background-color: white;
+    margin-top: 20px;
+    align-items: center;
+    padding: 50px;
+
+
+}
+
+.iphone-poderoso {
+
+    font-size: 28px;
+    color: #0c0c0c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.iphone-tamanho {
+
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+
+}   
+
+.iphone-preco {
+
+    font-size: 25px;
+    color: #6b6b6b;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+
+}
+
+button {
+
+    background-color: #0071e3;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: auto;
+    font-weight: 700;
+
+}
+
+.troca-cor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+.azul {
+    background-color: #81a5c4;
+
+}
+
+.amarelo {
+
+    background-color: #f4f809;
+}
+
+.branco {
+
+    background-color: #dde8f1;
+}
+
+.preto {
+
+    background-color:#3c3f42;
+}
+
+.vermelho {
+    background-color: #e40505;
+}
+
+.roxo {
+    background-color: #680763;
+
+}
+
+
+.iphone-escolha {
+
+
+    font-size: 20px;
+    color: #636363;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.imgiphone {
+    width: 850px;
+    margin-top: 100px;
+    margin-left: 1000px;
+    z-index: 99;/*quem fica na frente de quem*/
+
+    
+
+}
+.circulo    {
+    width: 100%;
+    height: 100%;
+    background: #81a5c4;
+    position: absolute; /*Ocupa a página inteira com uma imagem*/
+    top: 0;
+    left: 0;
+    clip-path: circle(900px at right 1000px);   /*responsável por fazer o 
+    circulo da imagem cinza e colocar ela do lado*/
+}
+
+
+

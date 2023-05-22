@@ -1,0 +1,173 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    display: flex;
+    padding: 25px;
+    height: 100px;
+    align-items: center;
+    /*alinha ao centro na vertical*/
+    justify-content: center;
+    /*alinha ao centro da página*/
+    gap: 80px;
+    /* espaço entre os itens*/
+    list-style: none;
+    /*estilo da lista*/
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.875px;
+
+    color: #17233D;
+    margin-top: 3px;
+
+
+
+
+}
+@media screen and (min-width:600px) and (orientation:landscape){
+    div{    background-color: blue;
+            height: 200px;
+            width: 200px;
+    }
+
+.products {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.875px;
+
+    color: #17233D;
+    margin-left: 100px;
+}
+
+.company {
+
+    margin-left: 1061px;
+    margin-top: 47px;
+    width: 79px;
+    height: 21px;
+
+
+
+}
+
+.blog {
+
+    margin-left: 18.89px;
+    margin-right: 78.54px;
+
+
+}
+
+.log-in {
+
+}
+
+.botao-inscricao {
+    height: 51px;
+    width: 124px;
+    margin-left: 682.58px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+
+
+.img {
+
+    position: absolute;
+    width: 583.17px;
+    height: 374.82px;
+    margin-left: 121px;
+    margin-top: 0.18px;
+    display: inline-block;
+
+
+}
+
+.texto-wide {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    /* or 132% */
+
+    letter-spacing: 0.596154px;
+
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    text-align: left;
+
+    height: 164px;
+    width: 582px;
+    margin-left: 801px;
+    margin-top: 82px;
+    border-radius: nullpx;
+
+
+
+}
+
+.loren {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+
+    height: 99px;
+    width: 493px;
+    margin-left: 801px;
+    margin-top: 53px;
+    border-radius: nullpx;
+
+
+}
+
+.continue-lendo {
+
+    color: #6FBF44;
+    margin-bottom: 5px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+
+    height: 27px;
+    width: 112px;
+    margin-left: 801px;
+    margin-top: 140px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+
+
+}

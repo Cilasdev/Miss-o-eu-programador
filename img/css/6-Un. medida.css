@@ -1,0 +1,46 @@
+
+.avo{
+    font-size: 16px;
+}
+
+.pai{
+
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 3em;
+}
+.filho{
+
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    color: aliceblue;
+    font-size: 3rem;
+}
+/*
+
+    UNIDADE DE MEDIDAS:
+
+    ABSOLUTAS:
+        px- pixels
+        in-inchentes/polegadas
+        cm/mm- ceontímetros/milímetros
+
+    RELATIVAS
+        *%- calcula o tamanho relativo ao elemento pai
+        *vw-(view width)1vw é 1% da largura da janela do navegador
+        *vh-(view height) 1vh é 1% da altura da janela do navegador
+        em- é uma unidade relativa ao elemento pai
+            EMPHEMREAL UNIT 
+        rem- é uma unidade relativa ao elemento raiz
+            ROOT EMPHEMREAL UNIT
+        O mais simples e lógico é você colocar o rem e basear toda a sua estrutura relacionado a tamanhos na mesma proporção.
+    */
+
+    /*
+
+    Aula foi a mais complexa, porém, preciso reforçar esse cnhecimento.
+    
+    */

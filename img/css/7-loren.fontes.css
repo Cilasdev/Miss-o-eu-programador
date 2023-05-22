@@ -1,0 +1,35 @@
+/*
+*Para copiar é muito simples, buscamos a fonte no google fontes e copiamos os códigos da fonte para p html e o segundo código que será aplicado no CSS
+posso também copiar o import da fonte e colocar no html quer já vai ficar com o a configuração igual a do link.
+*Para aplicarmos largura e altura, precisamos copiar todas os tamanhos das fontes no google fonts. 
+*Podemos utilizar o bold , bolder, ou ligther que deixara o texto mais fino ou mais grosso.
+*POdemos usar também o modo de importar as fontes, você vi no google fontes e importa, e decpois apaga todos os links no html e e no css e importa, vide modo abaixo:
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+</style>
+
+*line-heigt, serve para espaçar as linhas do texto
+*letter-spacing, espaço entre as letras.
+*/
+
+h1{
+    color: red;
+    font-size: 64px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+p   {
+    color: blue;
+    font: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 120px;
+    letter-spacing: 30px;
+    word-spacing: 10px;
+}
+    
+

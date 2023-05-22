@@ -1,0 +1,38 @@
+
+/*
+
+*border: 10px dashed, vai deixar as bordas tacejadas;
+*border: 10px solid, vai deixar as bordas normais;
+ex:
+.box{
+    width: 100px;
+    height: 100px;
+    background: #ff1493;
+    padding: 20px;
+    border: 10px solid #0000ff;
+}
+
+*box-sizing:
+    border-box:
+A área do quadrado ou box não vai ser alterada, vamos colocar todos os elementos dentro sxem alterar o tamanho dos 100px que eu determinei, vide exemplo:
+    width: 100px;
+    height: 100px;
+
+*box-sizing: 
+    content-box; vai continuar crescendo a cada vez que eu coloco elementos
+
+***atenção, 95% dos projetos serão utilizados os elemento border-box.****
+*/
+*{
+    box-sizing: content-box;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: #ff1493;
+    padding: 20px;
+    border: 10px solid #0000ff;
+
+}
