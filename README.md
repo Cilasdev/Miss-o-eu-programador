@@ -8,5 +8,10 @@
      <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <br>
-  <br>     
+  <br>  
+  <p>Projeto 1</p>
   <img src="https://github.com/Cilasdev/Easy-Shopping/blob/master/img/Easy%20shop%20desktop.jpg?raw=true"/>
+  <br>
+  <br>
+  <p>Projeto 2</p>
+  <img src="https://github.com/Cilasdev/Easy-Shopping/blob/master/img/Easy%20shop%20mobile.jpg?raw=true"/>
